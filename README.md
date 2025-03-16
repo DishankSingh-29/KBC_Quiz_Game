@@ -111,3 +111,6 @@ Who-Wants-To-Be-A-Millionaire/
 
 ## Note:
 - Ensure all audio/images from the KBC/ folder are in the correct directory relative to the script. The game uses British pounds (£) as currency, but can be easily modified to other currencies.
+
+## Contribution
+- Contributions are welcome! Feel free to submit issues or pull requests.
