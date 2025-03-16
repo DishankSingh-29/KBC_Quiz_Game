@@ -19,8 +19,40 @@ A Python implementation of the popular game show "Who Wants to Be a Millionaire"
 - **Win/Lose Screens**: Interactive end-game scenarios
 - **Prize Tracking**: Visual progression through prize amounts
 
-## Installation 🛠️
+## Prerequisites 📋
+- Python 3.6+
+- Required libraries:
+  ```bash
+  pip install pygame pyttsx3
 
-1. Clone the repository:
+## File Structure 📁
+```
+Who-Wants-To-Be-A-Millionaire/
+├── KBC/
+│   ├── audiencePole.png
+│   ├── calling.mp3
+│   ├── center.png
+│   ├── happy.png
+│   ├── kbc.mp3
+│   ├── Kbcwon.mp3
+│   ├── lay.png
+│   ├── phone.png
+│   ├── phoneAFriend.png
+│   ├── sad.png
+│   └── 50-50.png
+├── main.py
+└── README.md
+```
+
+## How to Run 🚀
+- Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/who-wants-to-be-a-millionaire.git
+  git clone https://github.com/DishankSingh-29/Who-Wants-To-Be-A-Millionaire.git
+
+- Navigate to the project directory:
+  ```bash
+  cd Who-Wants-To-Be-A-Millionaire
+  
+- Run the game:
+  ```bash
+  python main.py
