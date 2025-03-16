@@ -1,19 +1,26 @@
-Who-Wants-to-Be-a-Millionaire/
-├── KBC/                   # Folder containing audio and image files
-│   ├── kbc.mp3            # Background music
-│   ├── Kbcwon.mp3         # Winning music
-│   ├── calling.mp3        # Phone call sound
-│   ├── 50-50.png          # 50-50 lifeline image
-│   ├── 50-50-X.png        # Disabled 50-50 lifeline image
-│   ├── audiencePole.png   # Ask the Audience lifeline image
-│   ├── audiencePoleX.png  # Disabled Ask the Audience lifeline image
-│   ├── phoneAFriend.png   # Phone a Friend lifeline image
-│   ├── phoneAFriendX.png  # Disabled Phone a Friend lifeline image
-│   ├── happy.png          # Happy emoji for winning screen
-│   ├── sad.png            # Sad emoji for losing screen
-│   ├── center.png         # Center logo image
-│   ├── lay.png            # Layout image
-│   ├── phone.png          # Phone call button image
-│   └── Picture0.png       # Prize amount images (0-15)
-├── main.py                # Main game script
-└── README.md              # This file
+# Who Wants to Be a Millionaire - KBC Quiz Game
+
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+A Python implementation of the popular game show "Who Wants to Be a Millionaire" using Tkinter for GUI, featuring lifelines, sound effects, and progressive difficulty levels.
+
+![Screenshot 2025-03-16 163655](https://github.com/user-attachments/assets/e99cb6bf-1854-4375-8c55-8f1f465fc85d)
+
+## Features ✨
+
+- **Immersive GUI**: Built with Tkinter for a authentic game show experience
+- **3 Lifelines**:
+  - 50:50 - Eliminates two wrong answers
+  - Audience Poll - Visual voting percentages
+  - Phone-a-Friend - Text-to-speech assistance
+- **Sound Effects**: Background music and audio cues
+- **Progressive Difficulty**: 15 increasingly challenging questions
+- **Win/Lose Screens**: Interactive end-game scenarios
+- **Prize Tracking**: Visual progression through prize amounts
+
+## Installation 🛠️
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/who-wants-to-be-a-millionaire.git
