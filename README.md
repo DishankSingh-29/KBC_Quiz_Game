@@ -3,9 +3,19 @@
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A Python implementation of the popular game show "Who Wants to Be a Millionaire" using Tkinter for GUI, featuring lifelines, sound effects, and progressive difficulty levels.
 
+## Visual Overview 🖼️
+
+### Game Interface
 ![Screenshot 2025-03-16 163655](https://github.com/user-attachments/assets/e99cb6bf-1854-4375-8c55-8f1f465fc85d)
+*Main game interface with question, lifelines, and prize money display*
+
+### Lifeline Demonstration
+| 50-50 Lifeline | Audience Poll | Phone a Friend |
+|----------------|---------------|----------------|
+| ![Screenshot 2025-03-16 190826](https://github.com/user-attachments/assets/90d143f3-be80-4e2b-b2d6-f1e4a74fb353)|![Screenshot 2025-03-16 190902](https://github.com/user-attachments/assets/71cc1281-db7e-4908-b9f9-74d1df93fd6c)|![Screenshot 2025-03-16 190941](https://github.com/user-attachments/assets/79644817-1814-42ab-8903-1dcc70dcadb8)|
+
+A Python implementation of the popular game show "Who Wants to Be a Millionaire" using Tkinter for GUI, featuring lifelines, sound effects, and progressive difficulty levels.
 
 ## Features ✨
 
@@ -55,4 +65,49 @@ Who-Wants-To-Be-A-Millionaire/
   
 - Run the game:
   ```bash
-  python main.py
+  python KBC_Game.py
+
+
+## Game Structure 🕹️
+- **GUI Setup**: Uses Tkinter for window management and widget creation
+
+- **Questions & Answers**: 15 pre-defined Q/A pairs with multiple choices
+
+- **Lifeline System**:
+
+     - **50-50 -** Dynamically removes incorrect options
+
+     - **Audience Poll -** Shows visual percentage bars
+
+     - **Phone-a-Friend -** Text-to-speech reveals correct answer
+
+- **Game Logic:**
+
+  - Progressive question difficulty
+
+  - Dynamic prize money updates
+
+  - Answer validation system
+
+- **Win/Lose Conditions:**
+
+    - Full-screen victory screen for completing all questions
+
+    - Game over screen for incorrect answers
+
+    - Play again functionality
+
+## Technologies Used 💻
+- **tkinter**: GUI development
+
+- **pygame.mixer**: Audio management
+
+- **pyttsx3:** Text-to-speech for lifelines
+
+- Progress bars for audience poll visualization
+
+## License 📄
+- This project is licensed under the **MIT** License.
+
+## Note:
+- Ensure all audio/images from the KBC/ folder are in the correct directory relative to the script. The game uses British pounds (£) as currency, but can be easily modified to other currencies.
