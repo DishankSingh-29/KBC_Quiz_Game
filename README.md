@@ -15,6 +15,11 @@
 |----------------|---------------|----------------|
 | ![Screenshot 2025-03-16 190826](https://github.com/user-attachments/assets/90d143f3-be80-4e2b-b2d6-f1e4a74fb353)|![Screenshot 2025-03-16 190902](https://github.com/user-attachments/assets/71cc1281-db7e-4908-b9f9-74d1df93fd6c)|![Screenshot 2025-03-16 190941](https://github.com/user-attachments/assets/79644817-1814-42ab-8903-1dcc70dcadb8)|
 
+### Win Loss Demonstration
+| Win | Lose |
+|----------------|---------------|
+| ![Screenshot 2025-03-16 193102](https://github.com/user-attachments/assets/89c7be04-0b03-44e5-98a1-7d3e993130d9)|![Screenshot 2025-03-16 193006](https://github.com/user-attachments/assets/dbe3c661-f981-47f7-a2b7-2771f57bd01c)|
+
 A Python implementation of the popular game show "Who Wants to Be a Millionaire" using Tkinter for GUI, featuring lifelines, sound effects, and progressive difficulty levels.
 
 ## Features ✨
